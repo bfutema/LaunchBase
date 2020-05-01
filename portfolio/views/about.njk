@@ -1,0 +1,19 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+  <title>{{about.name}} - Sobre</title>
+{% endblock %}
+
+{% block content %}
+  <div id="wrapper">
+    <img src="https://avatars3.githubusercontent.com/u/46576135?s=400&u=7ea112bde22b3566c77851301e2fc08920107971&v=4" alt="Bruno Futema">
+    <h1>{{about.name}}</h1>
+    <h2>{{about.role}}</h2>
+    <p>{{about.description}}</p>
+  </div>
+  <div id="links-footer" class="links">
+    {% for link in about.links %}
+      <a href="{{link.url}}" target="_blank">{{link.name}}</a>
+    {% endfor %}
+  </div>
+{% endblock %}
