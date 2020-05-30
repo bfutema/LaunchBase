@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background: #212528;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  padding: 30px;
+  border-bottom: 1px solid #7159c1;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.links {
+  text-align: center;
+}
+
+.links a {
+  color: #7159c1;
+  font-size: 22px;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+.links a + a {
+  margin-left: 30px;
+}
+
+.links a:hover {
+  color: #f0f0f0;
+  transition: color 800ms;
+}
+
+#wrapper {
+  text-align: center;
+  padding: 32px;
+}
+
+#wrapper img {
+  border-radius: 50%;
+  border: 3px solid #7159c1;
+  margin-bottom: 32px;
+  height: 280px;
+  cursor: pointer;
+}
+
+#wrapper img:hover {
+  filter: brightness(90%);
+  border: 3px solid #f0f0f0;
+  transition: border 1800ms;
+}
+
+#wrapper h1 {
+  font-size: 42px;
+  line-height: 52px;
+  font-weight: bold;
+}
+
+#wrapper h2 {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+  margin-top: 8px;
+  opacity: 0.8;
+}
+
+#wrapper ul {
+  margin: 15px 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#wrapper ul li {
+  background: #7159c1;
+  border: 3px solid #7159c1;
+  border-radius: 20px;
+  padding: 6px 12px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#wrapper ul li:hover {
+  filter: brightness(90%);
+  border: 3px solid #f0f0f0;
+  transition: border 1800ms;
+}
+
+#wrapper p {
+  max-width: 500px;
+  margin: 32px auto;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+#wrapper p a {
+  color: #ed145b;
+}
+
+#links-footer a {
+  border-bottom: 1px solid #7159c1;
+}
+
+#links-footer a.github:hover {
+  color: #f0f0f0;
+  transition: color 800ms;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+#links-footer a.tweet:hover {
+  color: #00aece;
+  transition: color 800ms;
+  border-bottom: 1px solid #00aece;
+}
+
+#links-footer a.insta:hover {
+  color: #ed145b;
+  transition: color 800ms;
+  border-bottom: 1px solid #ed145b;
+}
+
+#links-footer a.fb:hover {
+  color: #1877F2;
+  transition: color 800ms;
+  border-bottom: 1px solid #1877F2;
+}
+
+/* ==== CURSOS ==== */
+.courses {
+  max-width: 95vw;
+  height: 80vh;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.course {
+  width: 85%;
+  margin: 0 auto;
+  border: 2px solid #313538;
+  background: #282c30;
+  border-radius: 16px;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  cursor: pointer;
+}
+
+.course:hover {
+  border: 2px solid #7159c1;
+  box-shadow: 2px 2px 20px #7159c1;
+  transition: border 800ms;
+}
+
+.course img {
+  margin: 0 auto;
+}
+
+.course strong {
+  font-size: 60px;
+  margin: 0 auto;
+}
+
+.course .modules {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.modules span:nth-child(1) {
+  font-size: 22px;
+  color: #f0f0f0;
+}
+
+.modules span:nth-child(1):hover {
+  color: #7159c1;
+}
+
+.modules span:nth-child(2) {
+  width: 100%;
+  height: 40px;
+  background: #212528;
+  border-radius: 22px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.modules span:nth-child(2):hover {
+  filter: brightness(90%);
+}
+
+/* ==== MODAL ==== */
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.modal {
+  background-color: #fff;
+  width: 90%;
+  height: 90%;
+  margin: 5vh auto;
+  position: relative;
+}
+
+.modal .maximize-modal {
+  color: #000;
+  position: absolute;
+  top: 8px;
+  right: 40px;
+  cursor: pointer;
+}
+
+.modal .close-modal {
+  color: #000;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+}
+
+/* ==== MODAL.MAXIMIZE ==== */
+.modal.maximize {
+  background-color: #eee;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: 0;
+}
+
+.modal.maximize iframe {
+  height: 100%;
+}
+
+/* ==== MODAL.ACTIVE ==== */
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+iframe {
+  width: 100%;
+  height: 90%;
+  position: absolute;
+  top: 5%;
+}
+
+/* ==== 404 NOT FOUNT PAGE ==== */
+section.error {
+  width: 100%;
+  height: 50vh;
+}
+
+.error-info {
+  width: 600px;
+  margin: 80px auto;
+}
+
+.error-info-icon {
+  text-align: center;
+}
+
+.error-info-icon i {
+  color: #ddd;
+  display: block;
+  font-size: 120px;
+}
+
+.error-info-icon span {
+  color: #ddd;
+  display: block;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.error-info-code {
+  color: #ddd;
+  font-size: 36px;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.error-info-message {
+  color: #ddd;
+  font-size: 22px;
+  text-align: center;
+}

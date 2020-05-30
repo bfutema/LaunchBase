@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% block head %}
+      <title>Rocketseat</title>
+    {% endblock %}
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header>
+      <div class="links">
+        <a href="/teachers">Teachers</a>
+        <a href="#">Students</a>
+      </div>
+    </header>
+    {% block content %}{% endblock %}
+  </body>
+</html>

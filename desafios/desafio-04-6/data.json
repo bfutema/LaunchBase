@@ -1,0 +1,74 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "avatar_url": "https://source.unsplash.com/collection/10090394/700x1000",
+      "name": "Bruno Futema",
+      "birth": 849139200000,
+      "graduation": "mestrado",
+      "typeClass": "P",
+      "teaches": "Desenvolvimento Full Stack Web, Desenvolvimento Mobile, Data Science",
+      "created_at": 1589135797427
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://source.unsplash.com/collection/10090394/700x1000",
+      "name": "Hamilton Machitti",
+      "birth": 320803200000,
+      "graduation": "doutorado",
+      "typeClass": "P",
+      "teaches": "Java, JSP, MVC",
+      "created_at": 1589152949773
+    },
+    {
+      "id": 3,
+      "avatar_url": "https://source.unsplash.com/collection/10090394/700x1000",
+      "name": "Andrea Machion",
+      "birth": 437270400000,
+      "graduation": "mestrado",
+      "typeClass": "P",
+      "teaches": "POO, Java, Lógica de Programação",
+      "created_at": 1589163365979
+    },
+    {
+      "id": 4,
+      "avatar_url": "https://source.unsplash.com/collection/10090394/700x1000",
+      "name": "Alessandra Giordani",
+      "birth": 620265600000,
+      "graduation": "superior",
+      "typeClass": "D",
+      "teaches": "Geometria Analítica e Álgebra Linear, Cálculo Diferencial",
+      "created_at": 1589163485654
+    },
+    {
+      "id": 5,
+      "avatar_url": "https://source.unsplash.com/collection/10090394/700x1000",
+      "name": "Robson Calvetti",
+      "birth": 282960000000,
+      "graduation": "doutorado",
+      "typeClass": "P",
+      "teaches": "Algoritmos, Estrutura de dados, Java, Lógica de Programação",
+      "created_at": 1589163608718
+    },
+    {
+      "id": 6,
+      "avatar_url": "https://source.unsplash.com/collection/10090394/700x1000",
+      "name": "Jhonatan da Costa",
+      "birth": 894931200000,
+      "graduation": "medio",
+      "typeClass": "D",
+      "teaches": "Java, Node Js, Alteryx",
+      "created_at": 1589163687589
+    },
+    {
+      "id": 7,
+      "avatar_url": "https://source.unsplash.com/collection/10090394/700x1000",
+      "name": "Amanda Cano",
+      "birth": 799200000000,
+      "graduation": "superior",
+      "typeClass": "D",
+      "teaches": "Biologia, Ciências, Bioquímica",
+      "created_at": 1589163813198
+    }
+  ]
+}

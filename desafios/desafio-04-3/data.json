@@ -1,0 +1,14 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "avatar_url": "http://BrunoFutema",
+      "name": "Bruno Futema",
+      "birth": 849139200000,
+      "educationalLevel": "Mestrado",
+      "typeClass": "À distância",
+      "occupationArea": "Desenvolvimento Full Stack Web, Desenvolvimento Mobile",
+      "created_at": 1589135797427
+    }
+  ]
+}

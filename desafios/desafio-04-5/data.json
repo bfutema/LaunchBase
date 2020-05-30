@@ -1,0 +1,24 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "avatar_url": "https://source.unsplash.com/collection/10090394/700x1000",
+      "name": "Bruno Futema",
+      "birth": 849139200000,
+      "graduation": "mestrado",
+      "typeClass": "P",
+      "teaches": "Desenvolvimento Full Stack Web, Desenvolvimento Mobile",
+      "created_at": 1589135797427
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://source.unsplash.com/collection/10090394/700x1000",
+      "name": "Hamilton Machitti",
+      "birth": 320803200000,
+      "graduation": "doutorado",
+      "typeClass": "P",
+      "teaches": "Java, JSP, MVC",
+      "created_at": 1589152949773
+    }
+  ]
+}

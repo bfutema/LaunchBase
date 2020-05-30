@@ -1,0 +1,103 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/46576135?s=460&u=7ea112bde22b3566c77851301e2fc08920107971&v=4",
+      "name": "Bruno Amaral Futema",
+      "email": "bruno.futema@outlook.com",
+      "birth": 849139200000,
+      "schoolYear": "6EF",
+      "workload": "280"
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://instagram.fcgh8-1.fna.fbcdn.net/v/t51.2885-15/e35/64633149_2854783301412718_4127107765117622988_n.jpg?_nc_ht=instagram.fcgh8-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=uoz3fNcz2lYAX_sNVIA&oh=cc7e1c38da3e03ccf09d34b543c7328a&oe=5EE1E8F1",
+      "name": "Amanda Cano",
+      "email": "camandinha.ac@gmail.com",
+      "birth": 799200000000,
+      "schoolYear": "3EM",
+      "workload": "120"
+    },
+    {
+      "id": 3,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/39928763?s=460&u=d4358517d84a65d13e190ad68d7d3fa9ddd587d6&v=4",
+      "name": "Jhonatan da Costa",
+      "email": "jhonatancosta@gmail.com",
+      "birth": 899683200000,
+      "schoolYear": "1EM",
+      "workload": "80"
+    }
+  ],
+  "teachers": [
+    {
+      "id": 1,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/46576135?s=460&u=7ea112bde22b3566c77851301e2fc08920107971&v=4",
+      "name": "Bruno Futema",
+      "birth": 849139200000,
+      "graduation": "mestrado",
+      "typeClass": "P",
+      "teaches": "Desenvolvimento Full Stack Web, Desenvolvimento Mobile, Data Science, Java",
+      "created_at": 1589135797427
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://scontent.fcgh8-1.fna.fbcdn.net/v/t1.0-9/s960x960/42966949_2068658573155952_4312506550867460096_o.jpg?_nc_cat=109&_nc_sid=85a577&_nc_oc=AQmejQBix_ubk3QhvLm9WVUYhaLGpf0hn2D_VIUkmR5HJbGYH_jwZUe4nqQPZZDtNlGDwboRZssnYGxvIWWPrSq5&_nc_ht=scontent.fcgh8-1.fna&_nc_tp=7&oh=3269d2714fed058275c8662f7c621f95&oe=5EDF8EAA",
+      "name": "Hamilton Machitti",
+      "birth": 320803200000,
+      "graduation": "doutorado",
+      "typeClass": "P",
+      "teaches": "Java, JSP, MVC, Lógica de Programação",
+      "created_at": 1589152949773
+    },
+    {
+      "id": 3,
+      "avatar_url": "https://scontent.fcgh8-1.fna.fbcdn.net/v/t1.0-9/73086929_1243745735829223_1884903589634113536_n.jpg?_nc_cat=103&_nc_sid=85a577&_nc_oc=AQnDOIYyYWOARfMy_Q9O072dxPSzNw6N2BnN8IgqD2In9LUm4JAJ-xSV5b8Eliwk1IluLe_6UylyUCQnzS1F92px&_nc_ht=scontent.fcgh8-1.fna&oh=b2e6b8d8d95a7b3dc3f9240357ad48ce&oe=5EDC7E58",
+      "name": "Andrea Machion",
+      "birth": 437270400000,
+      "graduation": "mestrado",
+      "typeClass": "P",
+      "teaches": "POO, Java, Lógica de Programação",
+      "created_at": 1589163365979
+    },
+    {
+      "id": 4,
+      "avatar_url": "https://scontent.fcgh8-1.fna.fbcdn.net/v/t31.0-8/p960x960/1014752_469720756435997_1258862188_o.jpg?_nc_cat=105&_nc_sid=85a577&_nc_oc=AQnJGYbdhxBRe8zk4ZgbRotnT8CUYKtvOrS5FRwFHscDJK9Q3EH03N8M1avspFGN11dyrUEKuhG3eqdJ5VYcIJa-&_nc_ht=scontent.fcgh8-1.fna&_nc_tp=6&oh=46035abccdfd31941f47ac45922387a3&oe=5EDC946B",
+      "name": "Alessandra Giordani",
+      "birth": 620265600000,
+      "graduation": "superior",
+      "typeClass": "D",
+      "teaches": "Geometria Analítica e Álgebra Linear, Cálculo Diferencial",
+      "created_at": 1589163485654
+    },
+    {
+      "id": 5,
+      "avatar_url": "https://scontent.fcgh8-1.fna.fbcdn.net/v/t1.0-9/17201242_10209238725220823_5189771181864955442_n.jpg?_nc_cat=111&_nc_sid=85a577&_nc_oc=AQl_Gahpmpo8NgKoExKhY77YzMDxafNdTd5UpXZXTygOEH7U-eT0fqevtOBpm8QGDwvS4VX-uRAqKsbnWfatT_SM&_nc_ht=scontent.fcgh8-1.fna&oh=fdcff8afe398ca89e154c45027f6f59a&oe=5EDFAD12",
+      "name": "Robson Calvetti",
+      "birth": 282960000000,
+      "graduation": "doutorado",
+      "typeClass": "P",
+      "teaches": "Algoritmos, Estrutura de dados, Java, Lógica de Programação",
+      "created_at": 1589163608718
+    },
+    {
+      "id": 6,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/39928763?s=460&u=d4358517d84a65d13e190ad68d7d3fa9ddd587d6&v=4",
+      "name": "Jhonatan da Costa",
+      "birth": 894931200000,
+      "graduation": "medio",
+      "typeClass": "D",
+      "teaches": "Java, Node Js, Alteryx, React Js, React Native",
+      "created_at": 1589163687589
+    },
+    {
+      "id": 7,
+      "avatar_url": "https://instagram.fcgh8-1.fna.fbcdn.net/v/t51.2885-15/e35/64633149_2854783301412718_4127107765117622988_n.jpg?_nc_ht=instagram.fcgh8-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=uoz3fNcz2lYAX_sNVIA&oh=cc7e1c38da3e03ccf09d34b543c7328a&oe=5EE1E8F1",
+      "name": "Amanda Cano",
+      "birth": 799200000000,
+      "graduation": "superior",
+      "typeClass": "D",
+      "teaches": "Biologia, Ciências, Bioquímica, Biologia Molecular, Genética",
+      "created_at": 1589163813198
+    }
+  ]
+}
