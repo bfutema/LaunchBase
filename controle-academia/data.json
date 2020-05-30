@@ -1,0 +1,55 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "avatar_url": "https://source.unsplash.com/collection/3465564/500x500",
+      "name": "Bruno Futema",
+      "email": "bruno.futema@outlook.com",
+      "birth": 849139200000,
+      "gender": "M",
+      "blood": "O+",
+      "weight": "55",
+      "height": "170"
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://source.unsplash.com/collection/3465564/500x500",
+      "name": "Fernanda",
+      "email": "fernanda@gmail.com",
+      "birth": 699667200000,
+      "gender": "F",
+      "blood": "A+",
+      "weight": "65",
+      "height": "168"
+    }
+  ],
+  "instructors": [
+    {
+      "id": 1,
+      "avatar_url": "https://source.unsplash.com/collection/3465564/500x500",
+      "name": "teste2",
+      "birth": 849139200000,
+      "gender": "F",
+      "services": "teste2, teste2",
+      "created_at": 1589137046267
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://source.unsplash.com/collection/3465564/500x500",
+      "name": "teste2",
+      "birth": 1577836800000,
+      "gender": "M",
+      "services": "teste2, teste2, hahaha",
+      "created_at": 1589151594949
+    },
+    {
+      "id": 3,
+      "avatar_url": "https://source.unsplash.com/collection/3465564/500x500",
+      "name": "teste3",
+      "birth": 1577836800000,
+      "gender": "F",
+      "services": "teste3, teste3, hahaha",
+      "created_at": 1589151605720
+    }
+  ]
+}
