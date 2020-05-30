@@ -3,38 +3,34 @@ const db = require('../../config/db');
 
 module.exports = {
   all(callback) {
-    db.query('SELECT * FROM members', function (err, results) {
-      if (err) throw `Database Error! ${err}`;
+    db.query('SELECT * FROM students ORDER BY name ASC', function (err, results) {
+      if (err) throw `Database Error!`;
 
       callback(results.rows);
     });
   },
   create(data, callback) {
     const query = `
-      INSERT INTO members (
-        name,
+      INSERT INTO students (
         avatar_url,
-        gender,
+        name,
         email,
         birth,
-        blood,
-        weight,
-        height,
-        instructor_id
-      ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+        school_year,
+        workload,
+        teacher_id
+      ) VALUES ($1, $2, $3, $4, $5, $6, $7)
       RETURNING id
     `;
 
     const values = [
-      data.name,
       data.avatar_url,
-      data.gender,
+      data.name,
       data.email,
       date(data.birth).iso,
-      data.blood,
-      data.weight,
-      data.height,
-      data.instructor,
+      data.school_year,
+      data.workload,
+      data.teacher,
     ];
 
     db.query(query, values, function (err, results) {
@@ -44,40 +40,36 @@ module.exports = {
     });
   },
   find(id, callback) {
-    db.query(`SELECT members.*, instructors.name AS instructor_name
-      FROM members
-      LEFT JOIN instructors ON (members.instructor_id = instructors.id)
-      WHERE members.id = $1`, [id], function (err, results) {
+    db.query(`SELECT students.*, teachers.name AS teacher_name
+      FROM students
+      LEFT JOIN teachers ON (students.teacher_id = teachers.id)
+      WHERE students.id = $1`, [id], function (err, results) {
       if (err) throw `Database Error! ${err}`;
 
       callback(results.rows[0]);
-    })
+    });
   },
   update(data, callback) {
     const query = `
-      UPDATE members SET
-        name = ($1),
-        avatar_url = ($2),
-        gender = ($3),
-        email = ($4),
-        birth = ($5),
-        blood = ($6),
-        weight = ($7),
-        height = ($8),
-        instructor_id = ($9)
-      WHERE id = $10
+      UPDATE students SET
+      avatar_url = $1,
+      name = $2,
+      email = $3,
+      birth = $4,
+      school_year = $5,
+      workload = $6,
+      teacher_id = $7
+      WHERE id = $8
     `;
 
     const values = [
-      data.name,
       data.avatar_url,
-      data.gender,
+      data.name,
       data.email,
       data.birth,
-      data.blood,
-      data.weight,
-      data.height,
-      data.instructor,
+      data.school_year,
+      data.workload,
+      data.teacher,
       data.id,
     ];
 
@@ -88,14 +80,14 @@ module.exports = {
     });
   },
   delete(id, callback) {
-    db.query(`DELETE FROM members WHERE id = $1`, [id], function (err, results) {
+    db.query(`DELETE FROM students WHERE id = $1`, [id], function (err, results) {
       if (err) throw `Database Error ${err}`;
 
       callback();
     });
   },
-  instructorsSelectOptions(callback) {
-    db.query('SELECT id, name FROM instructors', function (err, results) {
+  teachersSelectOptions(callback) {
+    db.query('SELECT id, name FROM teachers', function (err, results) {
       if (err) throw `Database Error! ${err}`;
 
       callback(results.rows);
@@ -104,27 +96,27 @@ module.exports = {
   paginate(params) {
     const { filter, limit, offset, callback } = params;
 
-    let query = '',
+    let query ='',
         filterQuery = '',
         totalQuery = `(
-          SELECT COUNT(*) FROM members
+          SELECT COUNT(*) FROM students
         ) AS total`;
 
     if (filter) {
       filterQuery = `
-        WHERE members.name ILIKE '%${filter}%'
-        OR members.email ILIKE '%${filter}%'
+        WHERE students.name ILIKE '%${filter}%'
+        OR students.email ILIKE '%${filter}%'
       `;
 
       totalQuery = `(
-        SELECT COUNT(*) FROM members
+        SELECT COUNT(*) FROM students
         ${filterQuery}
       ) AS total`;
     }
 
     query = `
-      SELECT members.*, ${totalQuery}
-      FROM members
+      SELECT students.*, ${totalQuery}
+      FROM students
       ${filterQuery}
       LIMIT $1 OFFSET $2
     `;

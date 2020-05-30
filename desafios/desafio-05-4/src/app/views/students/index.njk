@@ -1,0 +1,55 @@
+{% extends 'layout.njk' %}
+
+{% block content %}
+  <div class="card table-container">
+    <div class="header">
+      <a class="button" href="/students/create">Novo</a>
+      <form action="/students" method="GET">
+        <input
+          type="text"
+          name="filter"
+          placeholder="Nome ou Email"
+          value={{filter}}
+        >
+        <button type="submit">Filtrar</button>
+      </form>
+    </div>
+    <table width="100%">
+      <thead>
+        <tr>
+          <th>Nome completo</th>
+          <th>E-mail</th>
+          <th>Ano escolar</th>
+          <th>Ação</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for student in students %}
+          <tr>
+            <td>
+              <span style="background-image: url({{ student.avatar_url }});"></span>
+              {{ student.name }}
+            </td>
+            <td>{{ student.email }}</td>
+            <td>
+              {% if student.school_year == '5EF' %} 5º Ano do Ensino Fundamental {% endif %}
+              {% if student.school_year == '6EF' %} 6º Ano do Ensino Fundamental {% endif %}
+              {% if student.school_year == '7EF' %} 7º Ano do Ensino Fundamental {% endif %}
+              {% if student.school_year == '8EF' %} 8º Ano do Ensino Fundamental {% endif %}
+              {% if student.school_year == '9EF' %} 9º Ano do Ensino Fundamental {% endif %}
+              {% if student.school_year == '1EM' %} 1º Ano do Ensino Médio {% endif %}
+              {% if student.school_year == '2EM' %} 2º Ano do Ensino Médio {% endif %}
+              {% if student.school_year == '3EM' %} 3º Ano do Ensino Médio {% endif %}
+            </td>
+            <td><a href="/students/{{ student.id }}">ver</a></td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <div class="pagination"
+      data-page={{pagination.page}}
+      data-total={{pagination.total}}
+      data-filter={{filter}}
+    ></div>
+  </div>
+{% endblock %}

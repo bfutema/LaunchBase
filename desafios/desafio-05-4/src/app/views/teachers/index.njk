@@ -3,12 +3,12 @@
 {% block content %}
   <div class="card table-container">
     <div class="header">
-      <a class="button" href="/instructors/create">Novo</a>
-      <form action="/instructors" method="GET">
+      <a class="button" href="/teachers/create">Novo</a>
+      <form action="/teachers" method="GET">
         <input
           type="text"
           name="filter"
-          placeholder="Nome ou Atendimento"
+          placeholder="Nome ou Acompanhamento"
           value={{filter}}
         >
         <button type="submit">Filtrar</button>
@@ -17,22 +17,26 @@
     <table width="100%">
       <thead>
         <tr>
-          <th>Instructor</th>
-          <th>Atendimento</th>
+          <th>Nome completo</th>
+          <th>Acompanhamento</th>
           <th>Alunos</th>
           <th>Ação</th>
         </tr>
       </thead>
       <tbody>
-        {% for instructor in instructors %}
+        {% for teacher in teachers %}
           <tr>
             <td>
-              <span style="background-image: url({{ instructor.avatar_url }});"></span>
-              {{ instructor.name }}
+              <span style="background-image: url({{ teacher.avatar_url }});"></span>
+              {{ teacher.name }}
             </td>
-            <td>{{ instructor.services }}</td>
-            <td>{{ instructor.total_students }}</td>
-            <td><a href="/instructors/{{ instructor.id }}">ver</a></td>
+            <td style="white-space: nowrap;">
+              {% for subject_taught in teacher.subjects_taught.split(',') %}
+                <span>{{ subject_taught }}</span>
+              {% endfor %}
+            </td>
+            <td>{{ teacher.total_students }}</td>
+            <td><a href="/teachers/{{ teacher.id }}">ver</a></td>
           </tr>
         {% endfor %}
       </tbody>
