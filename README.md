@@ -14,6 +14,7 @@
 	<a href="https://github.com/BrunoFutema/LaunchBase/commits/develop">
 		<img alt="Github last commit" src="https://img.shields.io/github/last-commit/brunofutema/LaunchBase?style=for-the-badge">
 	</a>
+	<img alt="Github issues" src="https://img.shields.io/github/issues/BrunoFutema/LaunchBase?style=for-the-badge">
 </p>
 
 <p align="center">
