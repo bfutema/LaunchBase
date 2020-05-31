@@ -49,7 +49,7 @@ Developed applications:
 - 3: Launchstore
 - 4: Foodfy
 
-## :information: How To Use
+## :information_source: How To Use
 
 Below are instructions on how to perform each one:
 
