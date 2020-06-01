@@ -17,13 +17,13 @@
 </p>
 
 <p align="center">
-	<a href="#launchbase-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-	<a href="#introduction-informations">Introduction</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#information_source-informations">Introduction</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	<a href="#information-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	<a href="#license">License</a>
 </p>
 
-## :launchbase: Technologies
+## :rocket: Technologies
 
 These projects were developed with the technologies.
 
@@ -31,6 +31,7 @@ These projects were developed with the technologies.
 - [Method-Override](http://expressjs.com/en/resources/middleware/method-override.html)
 - [Nunjucks](https://mozilla.github.io/nunjucks/)
 - [Pg](https://node-postgres.com/)
+- [Bcrypt](https://www.npmjs.com/package/bcrypt)
 
 And contains the development dependencies.
 
@@ -38,7 +39,7 @@ And contains the development dependencies.
 - [Nodemon](https://nodemon.io/)
 - [Npm-Run-All](https://www.npmjs.com/package/npm-run-all)
 
-## :introduction: Informations
+## :information_source: Informations
 
 This repository contains all my projects developed over the Bootcamp LaunchBase, where my learning is the central focus for the evolution of my professional career as a Front-End and Back-End developer. Throughout this immersive course I developed 4 applications and each one of them you find in the subfolders of this repository.
 
@@ -49,7 +50,7 @@ Developed applications:
 - 3: Launchstore
 - 4: Foodfy
 
-## :information: How To Use
+## :information_source: How To Use
 
 Below are instructions on how to perform each one:
 
