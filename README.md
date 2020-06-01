@@ -31,9 +31,9 @@
 <table>
 	<thead>
 		<tr>
-			<th align="center">----------------Week 01---------------</th>
-			<th align="center">------------------Week 02---------------</th>
-			<th align="center">-------------------Week 03------------------</th>
+			<th align="left">Week 01------------------------------</th>
+			<th align="left">Week 02---------------------------------</th>
+			<th align="left">Week 03----------------------------------</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -58,9 +58,9 @@
 <table>
 	<thead>
 		<tr>
-	    <th align="center">---------------Week 04----------------</th>
-	    <th align="center">----------------Week 05-----------------</th>
-	    <th align="center">----------------Week 06----------------</th>
+	    <th align="left">Week 04------------------------------</th>
+	    <th align="left">Week 05-------------------------------</th>
+	    <th align="left">Week 06----------------------------------</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -81,24 +81,6 @@
 		</tr>
 	</tbody>
 </table>
-
-<p align="center">
-	<a href="#">Módulo 1</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-	<a href="#">Módulo 2</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-	<a href="#">Módulo 3</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-	<a href="#">Módulo 4</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-	<a href="#">Módulo 5</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-	<a href="#">Módulo 6</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-	<a href="#">Módulo 7</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-</p>
-<p>
-	<a href="#">Módulo 8</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-	<a href="#">Módulo 9</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-	<a href="#">Módulo 10</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-	<a href="#">Módulo 11</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-	<a href="#">Módulo 12</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-	<a href="#">Módulo 13</a>
-</p>
 
 ## :rocket: Technologies
 
