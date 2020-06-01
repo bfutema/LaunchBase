@@ -73,6 +73,8 @@ Just start the app, the data can be found in the data.json file.
 
 On your Postbird, execute the commands from the database.sql file that is in the launchstore folder to create the tables.
 
+## Command Lines
+
 From your command line:
 
 ```bash
