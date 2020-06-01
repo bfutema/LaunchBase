@@ -70,7 +70,7 @@ $ npm install
 $ npm start
 
 # Install dependencies for Gym Manager project and Run
-$ cd controle-academia
+$ cd gymmanager
 $ npm install
 $ npm start
 
