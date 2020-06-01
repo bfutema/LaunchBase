@@ -31,15 +31,9 @@
 <table>
 	<thead>
 		<tr>
-<<<<<<< HEAD
 			<th align="left">Week 01------------------------------</th>
 			<th align="left">Week 02---------------------------------</th>
 			<th align="left">Week 03----------------------------------</th>
-=======
-			<th align="center">---------------Week 01---------------</th>
-			<th align="center">------------------Week 02---------------</th>
-			<th align="center">-------------------Week 03------------------</th>
->>>>>>> 96c13ca... Update README.md
 		</tr>
 	</thead>
 	<tbody>
@@ -64,15 +58,9 @@
 <table>
 	<thead>
 		<tr>
-<<<<<<< HEAD
 	    <th align="left">Week 04------------------------------</th>
 	    <th align="left">Week 05-------------------------------</th>
 	    <th align="left">Week 06----------------------------------</th>
-=======
-	    <th align="center">--------------Week 04----------------</th>
-	    <th align="center">----------------Week 05-----------------</th>
-	    <th align="center">----------------Week 06----------------</th>
->>>>>>> 96c13ca... Update README.md
 		</tr>
 	</thead>
 	<tbody>
