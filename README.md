@@ -1,5 +1,5 @@
 <h1 align="center">
-	<img alt="Bootcamp LaunchBase" src="https://skylab.rocketseat.com.br/static/0828532024cb46921a6b5e941f8d788d.svg" />
+	<img alt="Bootcamp LaunchBase" src="https://camo.githubusercontent.com/268b1344409fac98c4eeda520482b6910c4ddcba/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f676f6c64656e2d77696e642f626f6f7463616d702d6c61756e6368626173652f6c6f676f2e706e67" width="400px" />
 	<br>
 	Bootcamp LaunchBase
 </h1>
@@ -14,6 +14,7 @@
 	<a href="https://github.com/BrunoFutema/LaunchBase/commits/develop">
 		<img alt="Github last commit" src="https://img.shields.io/github/last-commit/brunofutema/LaunchBase?style=for-the-badge">
 	</a>
+	<img alt="Github issues" src="https://img.shields.io/github/issues/BrunoFutema/LaunchBase?style=for-the-badge">
 </p>
 
 <p align="center">
