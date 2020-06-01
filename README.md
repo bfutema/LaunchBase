@@ -31,7 +31,7 @@
 <table>
 	<thead>
 		<tr>
-			<th align="center">-----------------Week 01---------------</th>
+			<th align="center">----------------Week 01---------------</th>
 			<th align="center">------------------Week 02---------------</th>
 			<th align="center">-------------------Week 03------------------</th>
 		</tr>
@@ -58,7 +58,7 @@
 <table>
 	<thead>
 		<tr>
-	    <th align="center">----------------Week 04----------------</th>
+	    <th align="center">---------------Week 04----------------</th>
 	    <th align="center">----------------Week 05-----------------</th>
 	    <th align="center">----------------Week 06----------------</th>
 		</tr>
