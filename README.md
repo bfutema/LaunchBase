@@ -28,11 +28,15 @@
 
 These projects were developed with the technologies.
 
+- [Bcrypt](https://www.npmjs.com/package/bcrypt)
+- [Connect-Pg-Simple](https://openbase.io/js/connect-pg-simple)
 - [Express](https://expressjs.com/pt-br/)
+- [Express-Session](https://www.npmjs.com/package/express-session)
 - [Method-Override](http://expressjs.com/en/resources/middleware/method-override.html)
+- [Multer](https://www.npmjs.com/package/multer)
+- [Nodemailer](https://nodemailer.com/about/)
 - [Nunjucks](https://mozilla.github.io/nunjucks/)
 - [Pg](https://node-postgres.com/)
-- [Bcrypt](https://www.npmjs.com/package/bcrypt)
 
 And contains the development dependencies.
 
@@ -55,7 +59,21 @@ Developed applications:
 
 Below are instructions on how to perform each one:
 
-To clone and run all of these applications, you'll need [Git](https://git-scm.com), [Node.js v10.16][nodejs] or higher installed on your computer. From your command line:
+To clone and run all of these applications, you'll need [Git](https://git-scm.com), [Node.js v10.16][nodejs] or higher installed on your computer.
+
+## Portfolio Data
+
+Just start the app, the data can be found in the data.json file.
+
+## Gym Manager Database
+
+``` in comming ```
+
+## Launchstore Database
+
+On your Postbird, execute the commands from the database.sql file that is in the launchstore folder to create the tables.
+
+From your command line:
 
 ```bash
 # Clone this repository

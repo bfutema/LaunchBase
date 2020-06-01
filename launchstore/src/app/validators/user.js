@@ -17,7 +17,7 @@ function checkAllFields(body) {
 async function post(req, res, next) {
   const fillAllFields = checkAllFields(req.body);
 
-  if (checkAllFields) {
+  if (fillAllFields) {
     return res.render('user/register', fillAllFields);
   }
 
