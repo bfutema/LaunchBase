@@ -24,6 +24,82 @@
 	<a href="#license">License</a>
 </p>
 
+<h4 align="center">
+	Course organization
+</h4>
+
+<table>
+	<thead>
+		<tr>
+			<th align="center">-----------------Week 01---------------</th>
+			<th align="center">------------------Week 02---------------</th>
+			<th align="center">-------------------Week 03------------------</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td align="left">Introdução à programação</td>
+			<td align="left">Gym Manager</td>
+			<td align="left">Persistindo dados da aplicação</td>
+		</tr>
+		<tr>
+	    <td align="left">Iniciando com front-end</td>
+			<td align="left"></td>
+			<td align="left">Launchstore</td>
+		</tr>
+		<tr>
+	    <td align="left">Iniciando com back-end</td>
+			<td align="left"></td>
+			<td align="left"></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+	    <th align="center">----------------Week 04----------------</th>
+	    <th align="center">----------------Week 05-----------------</th>
+	    <th align="center">----------------Week 06----------------</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td align="left">Trabalhando com upload de imagens</td>
+			<td align="left">Controle de sessão de usuários</td>
+			<td align="left">Funcionalidades extras para a Launchstore</td>
+		</tr>
+		<tr>
+			<td align="left">Listando os Produtos da Launchstore</td>
+			<td align="left">Conceitos Avançados de programação</td>
+			<td align="left"></td>
+		</tr>
+		<tr>
+			<td align="left">Cadastrando usuários</td>
+			<td align="left"></td>
+			<td align="left"></td>
+		</tr>
+	</tbody>
+</table>
+
+<p align="center">
+	<a href="#">Módulo 1</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#">Módulo 2</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#">Módulo 3</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#">Módulo 4</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#">Módulo 5</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#">Módulo 6</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#">Módulo 7</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
+<p>
+	<a href="#">Módulo 8</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#">Módulo 9</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#">Módulo 10</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#">Módulo 11</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#">Módulo 12</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#">Módulo 13</a>
+</p>
+
 ## :rocket: Technologies
 
 These projects were developed with the technologies.
