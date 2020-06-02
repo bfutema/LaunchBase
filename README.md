@@ -101,6 +101,7 @@ And contains the development dependencies.
 - [Browser-Sync](https://www.browsersync.io/)
 - [Nodemon](https://nodemon.io/)
 - [Npm-Run-All](https://www.npmjs.com/package/npm-run-all)
+- [Faker](https://www.npmjs.com/package/faker)
 
 ## :information_source: Informations
 
