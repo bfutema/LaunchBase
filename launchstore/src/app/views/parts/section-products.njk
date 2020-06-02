@@ -10,10 +10,10 @@
           style="background-image: url({{product.img if product.img else '//placehold.it/500x360'}})"
         >
         </div>
-        {% if product.old_price != product.price %}
-          <div class="old-price">{{product.old_price.replace('.', ',')}}</div>
+        {% if product.formatted_old_price != product.formatted_price %}
+          <div class="old-price">{{product.formatted_old_price}}</div>
         {% endif %}
-        <p>{{ product.price.replace('.', ',') }}</p>
+        <p>{{ product.formatted_price }}</p>
         <h4>{{ product.name }}</h4>
 
         <a href="/products/{{product.id}}" class="button">Ver Produto</a>
