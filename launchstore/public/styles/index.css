@@ -29,6 +29,10 @@ textarea {
   font-family: 'Roboto', sans-serif;
 }
 
+button {
+  background: none;
+}
+
 .container {
   width: 90%;
   max-width: 940px;
@@ -328,7 +332,7 @@ form .item #photos-preview img {
   margin: 48px 0;
 }
 
-.items {
+.shop .items {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 32px;

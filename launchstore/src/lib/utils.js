@@ -23,7 +23,7 @@ module.exports = {
     return new Intl.NumberFormat('pt-BR', {
       style: 'currency',
       currency: 'BRL'
-    }).format(value/100);
+    }).format(value/100).replace('.', ',');
   },
   formatCpfCnpj(value) {
     value = value.replace(/\D/g, '');
