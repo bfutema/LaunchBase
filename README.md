@@ -24,64 +24,6 @@
 	<a href="#license">License</a>
 </p>
 
-<h4 align="center">
-	Course organization
-</h4>
-
-<table>
-	<thead>
-		<tr>
-			<th align="left">Week 01------------------------------</th>
-			<th align="left">Week 02---------------------------------</th>
-			<th align="left">Week 03----------------------------------</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td align="left">Introdução à programação</td>
-			<td align="left">Gym Manager</td>
-			<td align="left">Persistindo dados da aplicação</td>
-		</tr>
-		<tr>
-	    <td align="left">Iniciando com front-end</td>
-			<td align="left"></td>
-			<td align="left">Launchstore</td>
-		</tr>
-		<tr>
-	    <td align="left">Iniciando com back-end</td>
-			<td align="left"></td>
-			<td align="left"></td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
-	    <th align="left">Week 04------------------------------</th>
-	    <th align="left">Week 05-------------------------------</th>
-	    <th align="left">Week 06----------------------------------</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td align="left">Trabalhando com upload de imagens</td>
-			<td align="left">Controle de sessão de usuários</td>
-			<td align="left">Funcionalidades extras para a Launchstore</td>
-		</tr>
-		<tr>
-			<td align="left">Listando os Produtos da Launchstore</td>
-			<td align="left">Conceitos Avançados de programação</td>
-			<td align="left"></td>
-		</tr>
-		<tr>
-			<td align="left">Cadastrando usuários</td>
-			<td align="left"></td>
-			<td align="left"></td>
-		</tr>
-	</tbody>
-</table>
-
 ## :rocket: Technologies
 
 These projects were developed with the technologies.
